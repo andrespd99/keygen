@@ -7,7 +7,7 @@ CLI tool to generate new JSON Web Tokens (JWT) to securely communicate with your
 To install the keygen command, run the following command:
 
 ```bash
-go install github.com/andrespd99/keygen
+go install github.com/andrespd99/keygen/cmd/keygen
 ```
 
 ## Usage

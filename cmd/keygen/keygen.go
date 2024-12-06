@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/andrespd99/quoota-api/internal/signer"
+	"github.com/andrespd99/keygen/signer"
 	"github.com/atotto/clipboard"
 	"github.com/golang-jwt/jwt/v4"
 )

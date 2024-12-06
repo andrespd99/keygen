@@ -4,7 +4,15 @@ CLI tool to generate new JSON Web Tokens (JWT) to securely communicate with your
 
 ## Installation
 
-To install the keygen command, run the following command:
+### 1. Binary releases
+
+To install `keygen` from binary releases, you can download the latest release from the [releases page](https://github.com/andrespd99/keygen/releases).
+
+Then, place the binary in your PATH and you're good to go.
+
+### 2. Using go install
+
+To install `keygen` using go, run the following command:
 
 ```bash
 go install github.com/andrespd99/keygen/cmd/keygen
@@ -20,7 +28,7 @@ keygen "{{SIGNING_SECRET_KEY}}"
 
 This command will generate a new JWT and copy it to your clipboard.
 
-### Running directly from source
+### 3. Running directly from source
 
 If you want to run the keygen command directly from source, you can do so by running the following command:
 
